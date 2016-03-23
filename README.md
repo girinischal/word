@@ -17,12 +17,9 @@ The following words are _incorrect_: `APE` (`E` is not one of the provided lette
 
 ## Getting Started
 
-1. Fork this gist
-1. Open your fork in JS Bin
-  - You can use this shortcut link 
+1. Fork this gist (click the "Fork" button above; read this [help article](https://help.github.com/articles/forking-and-cloning-gists/) if you need more info)
+1. Open your fork in JS Bin (use the "Import Gist" feature of JS Bin, [here's how](https://jsbin.com/help/import-gists))
 1. Start working on the first objective
-
-[open gist in JS Bin]("javascript:(function() { window.location='http://jsbin.com/gist'+window.location.pathname})()")
 
 ## Challenge Objectives
 
