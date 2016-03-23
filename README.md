@@ -82,7 +82,7 @@ Tasks:
 
 If you want inspiration, you can start by trying to re-create this style:
 
-![example improved ui](http://cl.ly/0E2y122M153X)
+![example improved ui](http://f.cl.ly/items/173J1T413r0o3c1e3028/example-improved-ui.png)
 
 ### 5: Make a "Shuffle" Feature
 
