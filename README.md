@@ -22,7 +22,7 @@ The following words are _incorrect_: `APE` (`E` is not one of the provided lette
   - You can use this shortcut link 
 1. Start working on the first objective
 
-<a href="javascript:(function() { window.location='http://jsbin.com/gist'+window.location.pathname})()">open gist in JS Bin</a>
+[open gist in JS Bin]("javascript:(function() { window.location='http://jsbin.com/gist'+window.location.pathname})()")
 
 ## Challenge Objectives
 
