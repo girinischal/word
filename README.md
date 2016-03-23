@@ -19,7 +19,7 @@ The following words are _incorrect_: `APE` (`E` is not one of the provided lette
 
 1. Fork this gist
 1. Open your fork in JS Bin
-  - You can use this shortcut link<a href="javascript:(function()%7Bwindow.location='http://jsbin.com/gist'+window.location.pathname%7D)()">open gist in JS Bin</a>
+  - You can use this shortcut link <a href="javascript:(function() { window.location='http://jsbin.com/gist'+window.location.pathname})()">open gist in JS Bin</a>
 1. Start working on the first objective
 
 ## Challenge Objectives
