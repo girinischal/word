@@ -15,6 +15,10 @@ The following words are _incorrect_: `APE` (`E` is not one of the provided lette
 
 **Your task is to build a working version of this game with HTML, CSS, and JavaScript.**
 
+Here's an example of what the basic version could look like:
+
+![example game gif](http://f.cl.ly/items/2i0g3p1z0q360c0h2m0G/make-word.gif)
+
 ## Getting Started
 
 1. Fork this gist (click the "Fork" button above; read this [help article](https://help.github.com/articles/forking-and-cloning-gists/) if you need more info)
