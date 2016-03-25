@@ -21,6 +21,16 @@ The following words are _incorrect_: `APE` (`E` is not one of the provided lette
 1. Open your fork in JS Bin (use the "Import Gist" feature of JS Bin, [here's how](https://jsbin.com/help/import-gists))
 1. Start working on the first objective
 
+## Submitting your Code
+
+When you are ready to submit your code, share the **link to your fork of the gist**. This link will look something like:
+
+```
+https://gist.github.com/your-github-username/lettersandnubmers8123u12
+```
+
+Make sure you update your gist with the latest version of your code! You'll need to edit the files in the gist and copy over your code from JS Bin.
+
 ## Challenge Objectives
 
 Complete each of the challenge objectives in order.
