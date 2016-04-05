@@ -25,6 +25,18 @@ Here's an example of what the basic version could look like:
 1. Open your fork in JS Bin (use the "Import Gist" feature of JS Bin, [here's how](https://jsbin.com/help/import-gists))
 1. Start working on the first objective
 
+## Running Tests
+
+This challenge comes with its own suite of tests, which means that you can see which objectives you've completed by running the tests.
+
+To run your tests, open the "Console" tab in JS Bin, and execute the function `runTests()`.
+
+Of course, at the start most of these tests will be _failing_, because you haven't written code to make them pass. As you complete the objectives, however, you should see more and more green (green = _passing_).
+
+Run your tests frequently! They're a great way to tell if you're on-track.
+
+_Note: these tests only test your JavaScript code, not your HTML + CSS. If the objective includes HTML + CSS components, you can't rely on the tests to tell you if you've completed the objective or not. For that, you'll have to read the objective itself._
+
 ## Submitting your Code
 
 When you are ready to submit your code, share the **link to your fork of the gist**. This link will look something like:
@@ -72,7 +84,7 @@ Tasks:
 
 For example, running `updateLetters()` should change the content of the letters `<div>` tag to `ABCD`.
 
-Once you write your function, test it out in the Console.
+Once you write your function, test it out in the Console. [Run the tests](#running-tests) to see if you successfully implemented this function.
 
 ### 3: Make a "Random Generate" Feature
 
@@ -84,9 +96,9 @@ Tasks:
 - Change the `updateLetters()` function from the last objective so that it generates a new set of random letters and updates the HTML to display them.
 - Make a `<button>` that, when clicked, runs the function `updateLetters()`.
 
-If you're not sure how to generate random letters from JavaScript, the internet has many answers! Use your Google skills to find examples, but be sure to read and test them before pasting them into your code.
+If you're not sure how to generate random letters from JavaScript, the internet has many answers! Use your Google skills to find examples, but be sure to read and test them before pasting them into your code. [Run the tests](#running-tests) to check on your progress.
 
-### 4: Improve User Interface
+### 4: Improve the User Interface
 
 The current user interface (or UI, for short) is not very pretty. There is very little styling added to make it look better than the default.
 
@@ -105,10 +117,23 @@ Another common feature of word games is the "shuffle" button, which shuffles the
 Tasks:
 
 - Implement a "shuffle" feature for your game.
+- Write a JavaScript function called `shuffle()` that takes a string and returns a new string with the characters shuffled
+
+For example, the `shuffle()` function should work like this:
+
+```javascript
+shuffle("abcd"); // => "cbad"
+
+// so you could assign the return value of this function like this:
+
+var originalString = "original";
+var shuffledString = shuffle(originalString);
+console.log(shuffledString); // prints "larinigo"
+```
 
 This objective is a bit harder. You'll have to figure out what it means to "shuffle" a set of characters in a string.
 
-Make sure to work out the _logic_ for your procedure before coding it, and test your code as you go along.
+Make sure to work out the _logic_ for your procedure before coding it, and test your code as you go along. [Run the tests](#running-tests) to check your progress.
 
 ### 6: Get Creative
 
@@ -120,4 +145,4 @@ Some ideas:
 - Make the number of letters adjustable (i.e. can choose from more or fewer than 7 letters).
 - Assign number values to letters (like in Scrabble) and calculate a player's score using them.
 
-This objective is intentionally open-ended. Have fun with it!
+This objective is intentionally open-ended. There are no tests (unless you want to write some of your own ;). Have fun with it!
