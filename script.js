@@ -30,3 +30,9 @@ function showMessage(messageText) {
   // Set the text value of the element to the provided text
   messageElem.innerText = messageText;
 }
+
+
+// A function to check whether the guessed word is correct or not
+function checkGuess() {
+  // Write your code here!
+}
