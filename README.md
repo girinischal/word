@@ -62,14 +62,6 @@ Tasks:
 - Write the body code of the `checkGuess()` function so that it satisfies its description (provided in a comment just above the function declaration).
 - Make sure that `checkGuess()` notifies the user of correct and incorrect guesses.
 
-**GOOD NEWS!** This step has already been completed for you. The developer who solved it even recorded [this video for you to watch](TODO: need link) so you can get up-to-speed.
-
-As you watch the video, note things like:
-
-- How they go about learning about the existing code
-- What steps they go through to solve the problem
-- How they debug their code
-
 ### 2: Change the Letters from JavaScript
 
 Having a single, static set of letters is not that interesting. Eventually, we'll need to change the letter set so that players can make different words.

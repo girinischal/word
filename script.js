@@ -30,30 +30,3 @@ function showMessage(messageText) {
   // Set the text value of the element to the provided text
   messageElem.innerText = messageText;
 }
-
-function checkGuess() {
-  // Collect the text from the letters and the guess
-  var letters = getLetters();
-  var guess   = getGuess();
-
-  // Convert the guess to all UPPER CASE (to better compare to the letters)
-  guess = guess.toUpperCase();
-
-  // Determine if all the letters in the guess are in the letters
-  for (var i = 0; i < guess.length; i++) {
-    var letterFromGuess = guess[i];
-
-    if (letters.indexOf(letterFromGuess) == -1) {
-      // If the letterFromGuess can't be found in 'letters', the game is over
-      showMessage("Sorry, not a valid word.");
-
-      // Return to exit the function
-      return false;
-    }
-  }
-
-  // If we've made it this far, then the word must be true!
-  showMessage("Yes, that is a valid word!");
-
-  return true;
-}
