@@ -34,5 +34,30 @@ function showMessage(messageText) {
 
 // A function to check whether the guessed word is correct or not
 function checkGuess() {
-  // Write your code here!
+  // Collect the text from the letters and the guess
+  var letters = getLetters();
+  var guess = getGuess();
+
+  // Convert both to uppercase so we can compare equals
+  guess = guess.toUpperCase();
+  letters = letters.toUpperCase();
+
+  // Determine if all the characters in the guess are in the letters
+  for (var i = 0; i < guess.length; i++) {
+    var currentChar = guess[i];
+
+    // If the current character can't be found in letters, the guess is incorrect
+    if (letters.indexOf(currentChar) === -1) {
+      // Show a message saying guess is incorrect
+      showMessage("Wrong guess, try again.");
+      // Return false to exit the function
+      return false;
+    }
+  }
+
+  // If we've made it this far, then the guess must be correct!
+  // Show a message saying guess is correct
+  showMessage("Good guess, that is correct!");
+  // Return true to exit the function
+  return true;
 }
