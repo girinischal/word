@@ -63,7 +63,7 @@ The incomplete logic in the `checkGuess()` function needs to be finished in orde
 
 Tasks:
 
-- [x] Write the body code of the `checkGuess()` function so that it satisfies its description (provided in a comment just above the function declaration).
+- [ ] Write the body code of the `checkGuess()` function so that it satisfies its description (provided in a comment just above the function declaration).
 - [ ] Make sure that `checkGuess()` notifies the user of correct and incorrect guesses.
 
 **GOOD NEWS!** This step has already been completed for you. The developer who solved it even recorded [this video for you to watch][objective-one-video] so you can get up-to-speed.
