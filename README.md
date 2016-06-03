@@ -25,6 +25,8 @@ Here's an example of what the basic version could look like:
 1. Open your fork in JS Bin (use the "Import Gist" feature of JS Bin, [here's how](https://jsbin.com/help/import-gists))
 1. Start working on the first objective
 
+**Note:** to avoid losing your work using JS Bin, you will want to frequently [save snapshots](https://jsbin.com/blog/urls) of your code. You'll need a [JS Bin account](https://jsbin.com/login) to do this.
+
 If this is unclear, watch the [Getting Started video][getting-started-video] to see how it's done.
 
 ## Running Tests
